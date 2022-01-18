@@ -1,0 +1,4 @@
+*1st commit (10.01.2021-25.01.2021):
+	Fork the repository
+	Run the Video Learning
+	Generate different sets of videos with different parameters
