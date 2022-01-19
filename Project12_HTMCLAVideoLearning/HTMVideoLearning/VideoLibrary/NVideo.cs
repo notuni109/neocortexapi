@@ -104,8 +104,12 @@ namespace VideoLibrary
         }
         public static void NFrameListToVideo(List<NFrame> bitmapList, string videoOutputPath, int frameRate, Size dimension, bool isColor)
         {
-            using (VideoWriter videoWriter = new($"{videoOutputPath}.mp4", -1, (int)frameRate, dimension, isColor))
+
+            int fourcc = VideoWriter.Fourcc('M', 'P', '4', 'V');
+            using (VideoWriter videoWriter = new($"{videoOutputPath}.mp4", fourcc, (int)frameRate, dimension, isColor))
             {
+
+
                 foreach (NFrame frame in bitmapList)
                 {
                     Bitmap tempBitmap = frame.IntArrayToBitmap(frame.EncodedBitArray);
