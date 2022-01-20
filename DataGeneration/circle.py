@@ -14,7 +14,7 @@ Y = screenHeight - r  - 20
 X = r + 40
 
 vectorLength = 10
-Angle = 216
+Angle = 360
 vectorAngle = math.radians(Angle) #-- range 0 -> 359 degree on geometric angle--
 x = int(math.cos(vectorAngle)*vectorLength)
 y = -int(math.sin(vectorAngle)*vectorLength)
