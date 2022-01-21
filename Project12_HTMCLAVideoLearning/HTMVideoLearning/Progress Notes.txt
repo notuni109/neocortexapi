@@ -2,3 +2,6 @@
 	Fork the repository
 	Run the Video Learning
 	Generate different sets of videos with different parameters
+
+faced a problem when running the program for the first time because of the codec needed to be specific.
+fixed by specifing the codec using Fourcc.
