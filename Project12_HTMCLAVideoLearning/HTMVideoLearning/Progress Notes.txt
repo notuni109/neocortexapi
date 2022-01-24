@@ -1,7 +1,8 @@
 *1st commit (10.01.2021-25.01.2021):
 	Fork the repository
+	faced a problem when running the program for the first time because of the codec needed to be specific.
+	fixed by specifing the codec using Fourcc.
 	Run the Video Learning
-	Generate different sets of videos with different parameters
+	Generate 10 different sets of videos with different angles, start from 36 to 360.
 
-faced a problem when running the program for the first time because of the codec needed to be specific.
-fixed by specifing the codec using Fourcc.
+
