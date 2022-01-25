@@ -3,6 +3,7 @@
 	faced a problem when running the program for the first time because of the codec needed to be specific.
 	fixed by specifing the codec using Fourcc.
 	Run the Video Learning
-	Generate 10 different sets of videos with different angles, start from 36 to 360.
+	Generate 10 different sets of videos (circle, rectangle, triangle) with different angles, start from 36 to 360.
+	Learning videos with Run 1 (SP only)
 
 
