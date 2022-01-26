@@ -1,7 +1,17 @@
 *1st commit (10.01.2021-25.01.2021):
 	Fork the repository
+	faced a problem when running the program for the first time because of the codec needed to be specific.
+	fixed by specifing the codec using Fourcc.
 	Run the Video Learning
-	Generate different sets of videos with different parameters
+	Generate 10 different sets of videos (circle, rectangle, triangle) with different angles, start from 36 to 360.
+	Learning videos with Run 1
+	Document the experiment results (accuracy)
+*2nd commit (24.01.2021-)
+	Adding a Trim of Music Video from Youtube
+	Learning videos with Run 2
+	Document the experiment results (accuracy)
+	Generate pictures
+	Try to recall videos using pictures
+	
 
-faced a problem when running the program for the first time because of the codec needed to be specific.
-fixed by specifing the codec using Fourcc.
+
