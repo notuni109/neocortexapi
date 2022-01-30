@@ -19,7 +19,7 @@ namespace HTMVideoLearning
             Stopwatch sw = new();
             List<TimeSpan> RecordedTime = new();
 
-            HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Noath2302");
+            HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers1");
             HelperFunction.WriteLineColor("Please insert or drag the folder that contains the training files: ", ConsoleColor.Blue);
             string trainingFolderPath = Console.ReadLine();
 
@@ -416,11 +416,11 @@ namespace HTMVideoLearning
             Stopwatch sw = new();
             List<TimeSpan> RecordedTime = new();
 
-            HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Toan Truong");
+            HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers2");
 
             // The current training Folder is located in HTMVideoLlearning/
             // SmallTrainingSet ; Training Videos ; oneVideoTrainingSet
-            HelperFunction.WriteLineColor("Please drag the folder that contains the training files to the Console Window: ", ConsoleColor.Blue);
+            HelperFunction.WriteLineColor("Please insert or drag the folder that contains the training files to the Console Window: ", ConsoleColor.Blue);
             string trainingFolderPath = Console.ReadLine();
 
             // Starting experiment
