@@ -703,6 +703,7 @@ namespace HTMVideoLearning
                 }
                 testNo += 1;
                 // Save the input Frame as NFrame
+                
                 NFrame inputFrame = new(new Bitmap(userInput), "TEST", "test", 0, frameWidth, frameHeight, colorMode);
                 inputFrame.SaveFrame(Outputdir + @"\" + $"Converted_{Path.GetFileName(userInput)}");
                 // Compute the SDR of the Frame
