@@ -48,7 +48,7 @@ Read a video in different frame rate. (only equal/lower framerates are possible)
 
 - [**NFrame**](https://github.com/ddobric/neocortexapi/blob/SequenceLearning_ToanTruong/Project12_HTMCLAVideoLearning/HTMVideoLearning/VideoLibrary/NFrame.cs):  
 represent a frame, has converted bitarray from the frame pixel reading.
-Can convert a bit array to Bitmap.  
+Can convert a bit array to Bitmap (a type of Image).  
 Also includes Framkey parameters, which is used to index the frame and learning with [HTMClassifier](https://github.com/ddobric/neocortexapi/blob/master/source/NeoCortexApi/Classifiers/HtmClassifier.cs).  
 **Framkey = (label)\_(VideoName)\_(index)**  e.g. circle_vd1_03  
 The current color encoding of each frame when reading videos [includes 3 mode](https://github.com/ddobric/neocortexapi/blob/027ead7a860f1ae115c56583035fc8fe21b97c83/Project12_HTMCLAVideoLearning/HTMVideoLearning/VideoLibrary/NFrame.cs#L12):  
