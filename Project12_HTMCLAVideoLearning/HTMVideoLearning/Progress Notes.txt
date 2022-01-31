@@ -1,17 +1,21 @@
-*1st commit (10.01.2021-25.01.2021):
+*1st commit (10.01.2021-24.01.2021):
 	Fork the repository
-	faced a problem when running the program for the first time because of the codec needed to be specific.
-	fixed by specifing the codec using Fourcc.
+	Faced a problem when running the program for the first time because of the codec needed to be specific.
+	Fixed by specifing the codec using Fourcc.
 	Run the Video Learning
 	Generate 10 different sets of videos (circle, rectangle, triangle) with different angles, start from 36 to 360.
 	Learning videos with Run 1
 	Document the experiment results (accuracy)
-*2nd commit (24.01.2021-)
+*2nd commit (25.01.2021-)
 	Adding a Trim of Music Video from Youtube
 	Learning videos with Run 2
 	Document the experiment results (accuracy)
-	Generate pictures
+	Create pictures from the video
 	Try to recall videos using pictures
+	Helper function modified (User: Thanh Toan -> Seekers)
+		HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers1");
+		HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers2");
+	Counldn't recall videos
 	
 
 
