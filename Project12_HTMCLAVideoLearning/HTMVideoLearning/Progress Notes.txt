@@ -12,9 +12,6 @@
 	Document the experiment results (accuracy)
 	Create pictures from the video
 	Try to recall videos using pictures
-	Helper function modified (User: Thanh Toan -> Seekers)
-		HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers1"); for Run1
-		HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers2"); for Run2
 	Adding Documentation Folder 
 	Counldn't recall videos
 	->Need to drag the frame from its own video as an input so the program can recall the video properly

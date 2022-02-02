@@ -20,7 +20,7 @@ namespace HTMVideoLearning
             List<TimeSpan> RecordedTime = new();
 
             HelperFunction.WriteLineColor($"Hello NeoCortexApi! Conducting experiment {nameof(VideoLearning)} Seekers1");
-            HelperFunction.WriteLineColor("Please insert or drag the folder that contains the training files: ", ConsoleColor.Blue);
+            HelperFunction.WriteLineColor("Please enter the path or drag the folder of the training videos: ", ConsoleColor.Blue);
             string trainingFolderPath = Console.ReadLine();
 
             sw.Start();
