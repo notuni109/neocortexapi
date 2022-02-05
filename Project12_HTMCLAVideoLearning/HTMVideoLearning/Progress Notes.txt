@@ -3,21 +3,25 @@
 	Faced a problem when running the program for the first time because of the codec needed to be specific
 	Fixed by specifing the codec using Fourcc
 	Run the Video Learning
-	Generate 10 different sets of videos (circle, rectangle, triangle) with different angles, start from 36 to 360.
+	Generate 10 different sets of videos (circle, rectangle, triangle) with different angles, start from 36 to 360
 	Learning videos with Run 1
 	Document the experiment results (accuracy)
+
 *2nd commit (25.01.2021-)
 	Adding a Trim of Music Video from Youtube
 	Learning videos with Run 2
-	Document the experiment results (accuracy)
+	Document the angles experiment results (accuracy)
 	Create pictures from the video
 	Try to recall videos using pictures
 	Adding Documentation Folder 
-	Counldn't recall videos
+	Can not recall videos
 	->Need to drag the frame from its own video as an input so the program can recall the video properly
-	Couldn't open the output videos
-	->Need to change the video format (from default to MPC-HC) to watch the output videos (but only in very small size)
-	
+	Can not open the output videos
+	->Need to change the video format (from default to MPC-HC) to watch the output videos 
+	because default player can not play the video with such small resolution (18x18) 
+	Can not recall the Youtube video
+	Test Youtube video's accuracy with different resolutions (changing frame width and frame height)
+	-> The larger the resolution,the longer run time is required
 	
 
 
