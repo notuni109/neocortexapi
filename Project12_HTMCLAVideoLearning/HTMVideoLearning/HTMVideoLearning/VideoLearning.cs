@@ -40,8 +40,8 @@ namespace HTMVideoLearning
             {
                 Directory.CreateDirectory(testOutputFolder);
             }
-            int frameWidth = 30;
-            int frameHeight = 30;
+            int frameWidth = 40;
+            int frameHeight = 40;
             ColorMode colorMode = ColorMode.BLACKWHITE;
             double frameRate = 12;
             // adding condition for 
@@ -435,7 +435,7 @@ namespace HTMVideoLearning
             }
 
             // Video Parameter 
-            int frameWidth = 30;
+            int frameWidth = 40;
             int frameHeight = 40;
             ColorMode colorMode = ColorMode.BLACKWHITE;
             double frameRate = 10;
