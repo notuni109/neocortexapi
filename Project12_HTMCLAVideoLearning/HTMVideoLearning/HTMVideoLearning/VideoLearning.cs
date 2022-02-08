@@ -40,8 +40,8 @@ namespace HTMVideoLearning
             {
                 Directory.CreateDirectory(testOutputFolder);
             }
-            int frameWidth = 40;
-            int frameHeight = 40;
+            int frameWidth = 18;
+            int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
             double frameRate = 12;
             // adding condition for 
@@ -435,10 +435,10 @@ namespace HTMVideoLearning
             }
 
             // Video Parameter 
-            int frameWidth = 40;
-            int frameHeight = 40;
+            int frameWidth = 18;
+            int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
-            double frameRate = 10;
+            double frameRate = 15;
 
             // Define Reader for Videos
             // Input videos are stored in different folders under TrainingVideos/
@@ -781,20 +781,20 @@ namespace HTMVideoLearning
             {
                 Random = new ThreadSafeRandom(42),
 
-                CellsPerColumn = 30,
+                 CellsPerColumn = 60,
                 GlobalInhibition = true,
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
                 PotentialRadius = (int)(0.15 * inputBits[0]),
-                //InhibitionRadius = 15,
+                InhibitionRadius = 30,
 
                 MaxBoost = 10.0,
-                //DutyCyclePeriod = 25,
+                DutyCyclePeriod = 25,
                 //MinPctOverlapDutyCycles = 0.75,
-                MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]),
+                //MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
 
-                //ActivationThreshold = 15,
-                //ConnectedPermanence = 0.5,
+                ActivationThreshold = 15,
+                ConnectedPermanence = 0.5,
 
                 // Learning is slower than forgetting in this case.
                 //PermanenceDecrement = 0.15,
