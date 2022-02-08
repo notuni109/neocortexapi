@@ -106,7 +106,7 @@ namespace VideoLibrary
         {
             int fourcc = VideoWriter.Fourcc('M', 'P', '4', 'V');
             using (VideoWriter videoWriter = new($"{videoOutputPath}.mp4", fourcc, (int)frameRate, dimension, isColor))
-            // using (VideoWriter videoWriter = new($"{videoOutputPath}.mp4", -1, (int)frameRate, dimension, isColor))
+            //using (VideoWriter videoWriter = new($"{videoOutputPath}.mp4", -1, (int)frameRate, dimension, isColor))
             {
                 foreach (NFrame frame in bitmapList)
                 {

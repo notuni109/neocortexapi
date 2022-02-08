@@ -7,7 +7,7 @@
 	Learning videos with Run 1
 	Document the experiment results (accuracy)
 
-*2nd commit (25.01.2021-)
+*2nd commit (25.01.2021-07.02.2021)
 	Adding a Trim of Music Video from Youtube
 	Learning videos with Run 2
 	Document the angles experiment results (accuracy)
@@ -22,6 +22,9 @@
 	Can not recall the Youtube video
 	Test Youtube video's accuracy with different resolutions (changing frame width and frame height)
 	-> The larger the resolution,the longer run time is required
-	
+*3rd commit (08.02.2021-)
+	Test with maxCycle = 1000 of Run1
+	Test Video Learning with different other videos
+	Test with different parameters of HTM Configuration
 
 
