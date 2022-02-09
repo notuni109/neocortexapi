@@ -17,11 +17,13 @@
 	Can not recall videos
 	->Need to drag the frame from its own video as an input so the program can recall the video properly
 	Can not open the output videos
-	->Need to change the video format (from default to MPC-HC) to watch the output videos 
+	->Need to change the video player (from default to MPC-HC) to watch the output videos 
 	because default player can not play the video with such small resolution (18x18) 
 	Can not recall the Youtube video
 	Test Youtube video's accuracy with different resolutions (changing frame width and frame height)
 	-> The larger the resolution,the longer run time is required
+	40x40 Resolution is the minimum resolution for the default video player to run properly 
+
 *3rd commit (08.02.2021-)
 	Test with maxCycle = 1000 of Run1
 	Test Video Learning with different other videos
