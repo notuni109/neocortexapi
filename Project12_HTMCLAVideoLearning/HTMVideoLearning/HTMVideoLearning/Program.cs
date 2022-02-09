@@ -25,7 +25,7 @@
             // as long as there are predicted cells.
             // The predicted series of Frame after the input frame are made into videos under Run1Experiment/TEST/
 
-            VideoLearning.Run1();
+             VideoLearning.Run1();
 
             // Run2:
             // Training and Learning Video with HTMClassifier with key as a serie of framekey
