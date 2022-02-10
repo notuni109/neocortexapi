@@ -26,7 +26,8 @@
 
 *3rd commit (08.02.2021-)
 	Test with maxCycle = 1000 of Run1
-	Test Video Learning with different other videos
-	Test with different parameters of HTM Configuration
+	Test Video Learning and recalling with different other videos
+	Exporing different videos with different Video Editor (Kapwing, Adobe)
+	Test with different parameters of HTM Configuration with focus on Run2
 
 
