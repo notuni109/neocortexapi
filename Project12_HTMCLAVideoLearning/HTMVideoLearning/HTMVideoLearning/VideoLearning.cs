@@ -781,7 +781,7 @@ namespace HTMVideoLearning
             {
                 Random = new ThreadSafeRandom(42),
 
-                CellsPerColumn = 60,
+                CellsPerColumn = 100,
                 GlobalInhibition = true,
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
