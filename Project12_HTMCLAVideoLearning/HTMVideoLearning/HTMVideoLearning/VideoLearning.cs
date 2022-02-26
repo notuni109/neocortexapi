@@ -786,7 +786,7 @@ namespace HTMVideoLearning
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
                 PotentialRadius = (int)(0.15 * inputBits[0]),
-                InhibitionRadius = 30,
+                InhibitionRadius = 50,
 
                 MaxBoost = 10.0,
                 DutyCyclePeriod = 25,
