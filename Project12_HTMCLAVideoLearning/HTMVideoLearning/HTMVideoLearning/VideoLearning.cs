@@ -781,7 +781,7 @@ namespace HTMVideoLearning
             {
                 Random = new ThreadSafeRandom(42),
 
-                CellsPerColumn = 30,
+                 CellsPerColumn = 100,
                 GlobalInhibition = true,
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
@@ -789,7 +789,7 @@ namespace HTMVideoLearning
                 InhibitionRadius = 50,
 
                 MaxBoost = 10.0,
-                DutyCyclePeriod = 25,
+                DutyCyclePeriod = 50,
                 //MinPctOverlapDutyCycles = 0.75,
                 //MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
 
