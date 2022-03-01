@@ -38,6 +38,6 @@
 		+Separate json file containing HTM configuration
 		+Separate json file containing Video configuration
 	Test with SmallTrainingSet
-	
+	Continuing Test with other parameters in HTM configuration
 
 
