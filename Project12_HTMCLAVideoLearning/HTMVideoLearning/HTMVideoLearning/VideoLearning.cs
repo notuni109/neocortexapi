@@ -797,8 +797,8 @@ namespace HTMVideoLearning
                 ConnectedPermanence = 0.5,
 
                 // Learning is slower than forgetting in this case.
-                PermanenceDecrement = 0.15,
-                PermanenceIncrement = 0.15,
+                PermanenceDecrement = 0.25,
+                PermanenceIncrement = 0.25,
 
                 // Used by punishing of segments.
             };
