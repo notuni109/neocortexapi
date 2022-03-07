@@ -33,7 +33,7 @@
 	Test with False Global Inhibition Condition
 	Test by Enable LocalAreaDensity
 	Test with a few Inhibition Radius
-*4th commit (22.02.02.2022-)
+*4th commit (22.02.02.2022-03.03.2022)
 	Test with a new version of code with new features:
 		+Separate json file containing HTM configuration
 		+Separate json file containing Video configuration

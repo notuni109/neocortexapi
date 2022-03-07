@@ -791,14 +791,14 @@ namespace HTMVideoLearning
                 MaxBoost = 10.0,
                 DutyCyclePeriod = 30,
                 //MinPctOverlapDutyCycles = 1.25,
-                //MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
+                MaxSynapsesPerSegment = (int)(0.04 * numColumns[0]), 
 
                 ActivationThreshold = 15,
                 ConnectedPermanence = 0.5,
 
                 // Learning is slower than forgetting in this case.
-                PermanenceDecrement = 0.25,
-                PermanenceIncrement = 0.25,
+                //PermanenceDecrement = 0.25,
+                //PermanenceIncrement = 0.25,
 
                 // Used by punishing of segments.
             };
