@@ -791,7 +791,7 @@ namespace HTMVideoLearning
                 MaxBoost = 10.0,
                 DutyCyclePeriod = 30,
                 //MinPctOverlapDutyCycles = 1.25,
-                MaxSynapsesPerSegment = (int)(0.04 * numColumns[0]), 
+                MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
 
                 ActivationThreshold = 15,
                 ConnectedPermanence = 0.5,
