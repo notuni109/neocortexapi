@@ -781,24 +781,24 @@ namespace HTMVideoLearning
             {
                 Random = new ThreadSafeRandom(42),
 
-                 CellsPerColumn = 40,
+                CellsPerColumn = 30,
                 GlobalInhibition = true,
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
                 PotentialRadius = (int)(0.15 * inputBits[0]),
-                InhibitionRadius = 30,
+                //InhibitionRadius = 15,
 
                 MaxBoost = 10.0,
-                DutyCyclePeriod = 30,
-                //MinPctOverlapDutyCycles = 1.25,
+                DutyCyclePeriod = 25,
+                //MinPctOverlapDutyCycles = 0.75,
                 MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
 
                 ActivationThreshold = 15,
                 ConnectedPermanence = 0.5,
 
                 // Learning is slower than forgetting in this case.
-                //PermanenceDecrement = 0.25,
-                //PermanenceIncrement = 0.25,
+                //PermanenceDecrement = 0.15,
+                //PermanenceIncrement = 0.15,
 
                 // Used by punishing of segments.
             };
