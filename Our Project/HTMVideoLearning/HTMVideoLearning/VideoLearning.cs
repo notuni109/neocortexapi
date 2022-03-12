@@ -786,14 +786,14 @@ namespace HTMVideoLearning
                 //LocalAreaDensity = -1,
                 NumActiveColumnsPerInhArea = 0.02 * numColumns[0],
                 PotentialRadius = (int)(0.15 * inputBits[0]),
-                //InhibitionRadius = 15,
+                InhibitionRadius = 30,
 
                 MaxBoost = 10.0,
-                DutyCyclePeriod = 25,
-                MinPctOverlapDutyCycles = 1.5,
-                MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
+                DutyCyclePeriod = 50,
+                //MinPctOverlapDutyCycles = 0.75,
+                //MaxSynapsesPerSegment = (int)(0.02 * numColumns[0]), 
 
-                ActivationThreshold = 15,
+                ActivationThreshold = 10,
                 ConnectedPermanence = 0.5,
 
                 // Learning is slower than forgetting in this case.
