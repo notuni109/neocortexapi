@@ -31,14 +31,26 @@
 	(to approximately 5 sec)
 	Test with different parameters of HTM Configuration with focus on Run2
 	Test different Cells per column parameters
-	Test with False Global Inhibition Condition
-	Test by Enable LocalAreaDensity
-	Test with Inhibition Radius
+	Test with false Global Inhibition Condition
+	Test by enabling LocalAreaDensity
+	Test with different Inhibition Radius
+
 *4th commit (22.02.02.2022-03.03.2022)
-	Test with a new version of code with new features:
-		+Separate json file containing HTM configuration
-		+Separate json file containing Video configuration
-	Test with SmallTrainingSet
 	Continuing Test with other parameters in HTM configuration
+	Test by modyfying the constant of NumActiveColumnsPerInhArea
+	Test with different Potential Radius
+	Test with different MaxBoost
+	Test with different DutyCyclePeriod
+	Test by enabling MinPctOverlapDutyCycles
+	Test by enabling MaxSYnapsesPerSegment and modyfing its constant
+	Test with different Activation Threshold
+	->Only Actvation Threshold = 15 works, others had too long elapsed time
+	Test with different Connected Permanence
+	Test by enabling PermanenceDecrement
+	Test by enabling PermanenceIncrement
+	Test with both enabled PermanenceDecrement and PermanenceIncrement
+	Adding Documentation to the whole experiment into a separate file, with tables 
+	
+	
 
 

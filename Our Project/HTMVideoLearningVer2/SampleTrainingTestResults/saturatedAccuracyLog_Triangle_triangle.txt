@@ -1,6 +1,0 @@
-Result Log for reaching saturated accuracy at 100
-Label: Triangle
-Video Name: triangle
-Stop after 283 cycles
-Elapsed time: 33 min.
-reaching stable after enter newborn cycle 198.
