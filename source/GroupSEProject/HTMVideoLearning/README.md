@@ -1,9 +1,4 @@
-# Video Learning With NeoCortexApi:
-Module: Project 12  
-Instructor: Damir Dobric, Proffessor Andreas Pech.  
-Student:  
-Toan Thanh Truong, Mtr. 1185050 Major: IT Gbr. 23.02.1997  
-_this readme serves as the submitted projectreport for the registered project Video Learning with HTM_
+# Project: Test and Investigation of Video Learning:
 ## 1. Motivation:
 This work "Video Learning with HTM CLA" introduces videos data into the Cortical Learning Algorithm in [NeoCortex Api](https://github.com/ddobric/neocortexapi).  
 Experiment in current work involves using Temporal Memory to learn binary representation of videos (sequence of bitarrays - each bitarray represents 1 frame).  
@@ -190,7 +185,7 @@ if(stableAccuracyCount >= 40 && cycleAccuracy> 0.9)
 // The result is saved in Run1ExperimentOutput/TEST/saturatedAccuracyLog_Run1.txt.  
 // In case the Experiment reach maxCycle instead of end condition, the log will be saved under Run1ExperimentOutput/TEST/MaxCycleReached.txt
 ``` 
-After finishing the user will be prompted to input a picture path.  
+After finishing the user will be asked to input a picture path.  
 The trained layer will use this image to try recreate the video it has learned from the training data.  
 - The image can be drag into the command window and press enter to confirm input. The model use the input frame to predict the next frame, then continue the process with the output frame if there are still predicted cells from calculation. For the first prediction HTMClassifier takes at most 5 possibilities of the next frame from the input.  
 - In case there are at least 1 frame, the codecs will appears and the green lines indicate the next predicted frame from the memory by HTMClassifier. 
@@ -286,4 +281,15 @@ The trained layer will use this image to try recreate the video it has learned f
 
 For an review on output folder TEST of both the Run after the learning one can refer to [SampleExperimentOutputTEST](https://github.com/ddobric/neocortexapi/tree/SequenceLearning_ToanTruong/Project12_HTMCLAVideoLearning/HTMVideoLearning/SampleExperimentOutputTEST).
 
+For this project, different video inputs are utilized and put under a large amount of conditions with differently modified parameters in order to determine the effects of each specific parameter on the performance of the program.
+
+Video inputs includes:
+- Simple shape videos: each consist of a black circle, rectangle, triangle on a white back ground.
+- Video 1: A random music video on Youtube and was edited down to reduce the time length. 
+- Video 2: Another random video and was also edited down to reduce the time length, which is needed to see the model performance for different inputs.
+
+Conditions:
+- Different moving angles were applied for the Simple Shape videos. There are a total of 10 angles, which ranges from 36 degree to 360 degree.
+- Different resolutions of Video 1 and Video 2 were tested.
+- Different HTM configuration were experimented and evaluated.
 
