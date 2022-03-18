@@ -82,7 +82,7 @@ namespace HTMVideoLearning
 
             int maxNumOfElementsInSequence = videoData[0].GetLongestFramesCountInSet();
 
-            int maxCycles = 10;
+            int maxCycles = 1000;
             int newbornCycle = 0;
 
             HomeostaticPlasticityController hpa = new(mem, maxNumOfElementsInSequence * 150 * 3, (isStable, numPatterns, actColAvg, seenInputs) =>
@@ -438,7 +438,7 @@ namespace HTMVideoLearning
             int frameWidth = 18;
             int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
-            double frameRate = 15;
+            double frameRate = 10;
 
             // Define Reader for Videos
             // Input videos are stored in different folders under TrainingVideos/
