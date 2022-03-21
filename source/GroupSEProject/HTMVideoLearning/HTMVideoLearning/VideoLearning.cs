@@ -43,7 +43,7 @@ namespace HTMVideoLearning
             int frameWidth = 18;
             int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
-            double frameRate = 12;
+            double frameRate = 10;
             // adding condition for 
             // Define HTM parameters
             int[] inputBits = { frameWidth * frameHeight * (int)colorMode };
@@ -438,7 +438,7 @@ namespace HTMVideoLearning
             int frameWidth = 18;
             int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
-            double frameRate = 10;
+            double frameRate = 12;
 
             // Define Reader for Videos
             // Input videos are stored in different folders under TrainingVideos/
