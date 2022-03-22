@@ -40,6 +40,7 @@ namespace HTMVideoLearning
             {
                 Directory.CreateDirectory(testOutputFolder);
             }
+            // Video Configuration
             int frameWidth = 18;
             int frameHeight = 18;
             ColorMode colorMode = ColorMode.BLACKWHITE;
