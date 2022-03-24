@@ -776,6 +776,7 @@ namespace HTMVideoLearning
         /// <param name="inputBits">number of bit in input array</param>
         /// <param name="numColumns">number of columns in SDR</param>
         /// <returns></returns>
+        //HTM configuration
         private static HtmConfig GetHTM(int[] inputBits, int[] numColumns)
         {
             HtmConfig htm = new(inputBits, numColumns)
